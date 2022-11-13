@@ -19,68 +19,64 @@
   <body>
     
     <main id="main">
-      <h1>Hi, I am <span id="gradient">Aditya Mundas</span></h1>
+      <h1 id="intro-header">Hi, I am <span id="gradient" class="hidden">Aditya Mundas</span></h1>
 
       <header id="things">
           <h2>Things I do:</h2> 
-               <h3>Web Dev | App Dev | Machine Learning</h3>
+               <h3 class="hidden">Web Dev | App Dev | Machine Learning</h3>
       </header>
 
       <div class="card text-white mb-3" id="cards" style="width: fit-content;">
         <h5 class="card-title text-center" id="project-title">Projects</h5>
       </div>
 
-      <section class="card text-white mb-3 border-danger">
-        <div class="card-body" id="cards">
+      <div class="card text-white card-body border-danger rounded-3 hidden" id="cards">
           <h5 class="card-title text-center" id="card-title-line">Heart Disease Prediction App</h5>
-          <h6 class="card-subtitle mb-2 text-center" id="domain-line">Domain- <span class="tag tag-red">Android</span> <span class="tag tag-red">Machine Learning</span></h6>
-          <p class="card-text"><ul>
+          <h6 class="card-subtitle mb-2 text-center" id="domain-line">Domain: <span class="tag">Android</span> <span class="tag">Machine Learning</span></h6>
+          <div class="card-text"><ul>
             <li>Developed an Android application using Java that allows users to predict  whether they have a heart disease or not based on 13 clinical parameters</li>
             <li>Implemented a Machine learning model (XGBoost) with 99.02% accuracy</li>
             <li>Used an API to incorporate the ML model with the app</li>
             <li>Utilized: Java, XML, Firebase, Heroku, Sci-kit Learn, Flask, Pandas, Volley</li>
-          </ul></p>
+          </ul></div>
           <section id="links">
           <a href="#" class="card-link" id="project-links">Code</a>
           <a href="#" class="card-link" id="project-links">Demo</a>
         </section>
         </div>
-      </section>
 
-      <section class="card text-white mb-3 border-danger">
-        <div class="card-body" id="cards">
+
+      <div class="card text-white card-body border-danger rounded-3 hidden" id="cards">
           <h5 class="card-title text-center" id="card-title-line">Crop Recommendation Website</h5>
-          <h6 class="card-subtitle mb-2 text-center" id="domain-line">Domain- <span class="tag tag-red">Web</span></h6>
-          <p class="card-text">
+          <h6 class="card-subtitle text-center" id="domain-line">Domain: <span class="tag">Web</span></h6>
+          <div class="card-text">
             <ul>
               <li>Developed an interactive website which uses a Google Maps API to display crops which are suitable to be grown in various regions in the state of Maharashtra, India.</li>
               <li>Used various JavaScript functions to create overlays and graphics for the map</li>
               <li>Utilized: HTML, CSS, JavaScript, Google Maps API, Maps Places library</li>
-          </ul></p>
+          </ul></div>
           <section id="links">
           <a href="#" class="card-link" id="project-links">Code</a>
           <a href="#" class="card-link" id="project-links">Demo</a>
         </section>
         </div>
-      </section>
 
-      <section class="card text-white mb-3 border-danger">
-        <div class="card-body" id="cards">
+        <div class="card text-white card-body border-danger rounded-3 hidden" id="cards" style="margin-bottom: 6rem;">
           <h5 class="card-title text-center" id="card-title-line">Portfolio Website</h5>
-          <h6 class="card-subtitle mb-2 text-center" id="domain-line">Domain- <span class="tag tag-red">Web</span></h6>
-          <p class="card-text"><ul>
+          <h6 class="card-subtitle text-center" id="domain-line">Domain: <span class="tag">Web</span></h6>
+          <div class="card-text"><ul>
             <li>Developed an interactive website to display my projects and skillset</li>
+            <li>Used CSS Flex and responsive principles to make the site usable on all devices</li>
             <li>Utilized: HTML, CSS, JavaScript, Bootstrap, Vanta.Js</li>
-        </ul></p>
+        </ul></div>
         <section id="links">
           <a href="#" class="card-link" id="project-links">Code</a>
           <a href="#" class="card-link" id="project-links">Demo</a>
         </section>
         </div>
-      </section>
 
       <footer id="connect">
-        <h2>Connect with me:</h2>
+        <h3>Connect with me:</h3>
         <div id="connect-row">
           <span><a href="https://github.com/am1671" id="connect-links">GitHub</a> <i class="fa-brands fa-github"></i></span>
           <span><a href="https://www.linkedin.com/in/aditya-mundas/" id="connect-links">LinkedIn</a> <i class="fa-brands fa-linkedin"></i></span>
@@ -93,7 +89,7 @@
     <script src="./three.min.js"></script>
     <script src="./vanta.net.min.js"></script>
     <script src="./app.js"></script>
-
+    <script src="./script.js" defer></script>  
   </body>
 
 </html>
