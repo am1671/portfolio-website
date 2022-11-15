@@ -9,5 +9,5 @@ VANTA.NET({
   scaleMobile: 2.0,
   color: 0xed155f,
   backgroundColor: 0x23153c,
-  points: 16.0,
+  points: 15.0,
 });
